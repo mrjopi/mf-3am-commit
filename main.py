@@ -5,6 +5,8 @@ The line is the whole entry: one line, under the contest's character limit.
 The gate refuses anything outside 1..MAX_CHARS characters, so the
 program checks the length before writing.
 """
+
+# The LINE below is the whole entry: it is what the judge reads.
 import os
 
 LINE = 'fix: reverted my fix — the bug was load-bearing and honestly doing a better job than me'
